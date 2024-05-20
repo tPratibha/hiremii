@@ -1,0 +1,452 @@
+* {
+  font-family: Arial, sans-serif;
+  margin: 0px;
+  padding: 0;
+}
+
+.container {
+  background: linear-gradient(#480607, #800000, #b22222);
+  color: white;
+  position: fixed;
+  z-index: 2;
+  width: 220px;
+  height: 100%;
+  padding: 10px 20px;
+  margin-left: -30px;
+  margin-top: 12px;
+  margin-bottom: -40px;
+}
+
+.container h1 {
+  font-size: 50px;
+}
+.container p {
+  font-size: 15px;
+  padding-left: 66px;
+  padding-bottom: 40px;
+  padding-top: -20px;
+}
+
+.container nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container nav ul {
+  list-style-type: none;
+}
+
+.container nav ul {
+  /* background-color: #f2f2f281; */
+  height: 10px;
+  position: absolute;
+  width: 85%;
+  border-radius: 6px;
+  padding-left: 30px;
+}
+.container nav ul li {
+  width: 100%;
+  padding: 5px 0px 20px 20px;
+}
+
+.container i {
+  padding-right: 10px;
+
+  font-size: 20px;
+}
+.container nav a {
+  color: white;
+  text-decoration: none;
+}
+.right-container {
+  margin-top: -30px;
+}
+#logo {
+  height: 120px;
+  width: 140px;
+
+  margin: 20px;
+  margin-left: 40px;
+  margin-bottom: -30px;
+}
+.right-container {
+  background-color: #f2f2f2;
+  margin-top: -30px;
+  position-top: fixed;
+  position: relative;
+}
+
+.search {
+  width: 100%;
+  height: 100%;
+}
+.sec-inp {
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.inp-bg {
+  padding-left: 90px;
+  padding-top: 50px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+.inp-bg i {
+  font-size: 30px;
+  color: #ca3743;
+  position: absolute;
+  left: 26%;
+}
+.inp-bg img {
+  position: absolute;
+  right: 13%;
+}
+.inp-bg input::placeholder {
+  padding-left: 130px;
+  font-size: 34px;
+  color: #d1d9d1;
+}
+.inp-bg input {
+  border-radius: 20px;
+  box-shadow: 0.5px 0.5px 5px 0.5px;
+  padding: 10px;
+  height: 50px;
+  width: 1000px;
+  margin-left: 140px;
+  border: none;
+  outline: none;
+}
+.sec-inp img {
+  width: 100px;
+}
+
+.lined-content {
+  display: flex;
+  grid-template-columns: repeat(3, 2fr);
+  align-items: center;
+  justify-content: center;
+  column-gap: 3 rem;
+  color: #be3031;
+
+  margin: 0 auto;
+  /* position: absolute; */
+}
+.lined-content::before,
+.lined-content::after {
+  content: " ";
+  flex: 1;
+  margin-left: 60px;
+  height: 0.7px;
+  background-color: grey;
+  display: block;
+}
+.lined-content .line {
+  margin: 0 10px;
+  flex: 1;
+}
+
+.lined-content {
+  margin-top: 30px;
+}
+.block-child {
+  float: left;
+  width: 40%; /* Set the desired width for each block */
+  height: 130px; /* Set the desired height */
+  background-color: white; /* Set the desired background color */
+  margin-right: 10px; /* Add spacing between blocks */
+  border-radius: 12px;
+  box-shadow: 0px 3px 4px;
+  margin: 30px;
+  margin-left: 70px;
+  color: grey;
+}
+.block {
+  margin-top: 50px;
+}
+.block-child {
+  display: inline-block;
+  display: flex;
+  align-items: left;
+}
+.block-child:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.block-child > i {
+  font-size: 30px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  overflow: hidden;
+  background-image: radial-gradient(red, rgb(58, 0, 0));
+  border-radius: 50%;
+  width: 44px; /* Set the width of the icon */
+  height: 24px; /* Set the height of the icon */
+  margin-right: 50px; /* Space between icon and text */
+  margin-left: 10px;
+  margin-top: 30px;
+}
+.block-child1 {
+  justify-content: flex-start;
+  text-align: left;
+}
+.block-child1 > h2 {
+  color: #e24b4d;
+  font-size: 40px;
+  margin-top: 10px;
+}
+.block-child1 > p {
+  color: black;
+}
+.block-child2 {
+  float: right;
+
+  text-align: right;
+  padding: 0px 12px 40px 0px;
+}
+.block-child2 p2 {
+  color: green;
+  font-size: 14px;
+}
+.block-child2 p {
+  color: grey;
+  font-size: 14px;
+}
+
+.view {
+  background: none; /* Removes the background */
+  border: none; /* Removes the border */
+  color: #e55c5d; /* Inherits the color from the parent element */
+
+  cursor: pointer;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+.right-container {
+  background-color: #f2f2f2;
+}
+.searchbar {
+  margin-top: 30px;
+  margin-left: 240px;
+  width: 1000px;
+  padding: 20px;
+  border: none;
+  justify-content: space-between;
+
+  position: relative;
+  margin-left: 250px;
+}
+.searchbar > i {
+  font-size: 24px;
+
+  color: brown;
+  margin-left: 120px;
+  margin-top: 40px;
+  position: absolute;
+
+  transform: translateY(-160%);
+  left: 10px;
+}
+/* .searchbar > input {
+    width: 100px;
+    display: flex;
+    border: none;
+    font-size: 32px;
+    margin-left: 170px;
+  } */
+
+.search-input {
+  width: 900px;
+  display: flex;
+
+  border: none;
+
+  outline: none;
+  flex: 1;
+  margin-left: 10px;
+  border-radius: 14px;
+  font-size: 28px;
+  background-color: white;
+
+  height: 4px;
+  box-shadow: 3px 2px 2px;
+  padding: 33px;
+  background-image: url("image/hiremi_logo.png") no-repeat 900px left; /* Path to your image */
+  background-size: 120px 800px; /* Adjust size as needed */
+}
+.searchbar input[type="search"] {
+  padding-left: 120px;
+  background-color: white;
+  font-size: 32px;
+
+  font-family: "Radio Canada Big", sans-serif;
+}
+.searchbar input[placeholder="Search"] {
+  color: grey;
+  font: 20px;
+  margin-left: 80px;
+}
+
+.account-section {
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 50%;
+}
+.content {
+  text-align: center;
+  color: rgb(108, 0, 0);
+}
+.account1 h4 {
+  padding-top: 25px;
+  display: grid;
+  width: 80%;
+  font-size: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  padding-left: 220px;
+  align-items: center;
+  column-gap: 0px;
+}
+.account1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.account1 h4::before,
+.account1 h4::after {
+  content: "";
+  height: 1px;
+  background-color: grey;
+  display: inline;
+}
+.account-box {
+  display: flex;
+  justify-content: center;
+  column-gap: 100px;
+  margin-left: 200px;
+}
+.account-box1 {
+  background-color: #fff;
+  border-radius: 10px;
+  position: relative;
+  border-left: 5px solid red;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  height: 120px;
+  padding-left: 20px;
+  margin-top: 50px;
+  box-shadow: 3px 2px 2px;
+}
+.icon {
+  background-image: radial-gradient(red, rgb(58, 0, 0));
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.icon i {
+  padding: 12px;
+
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  border-radius: 50%;
+}
+.upper-section {
+  padding-left: 20px;
+}
+.upper-section h3,
+.upper-section p {
+  color: rgb(208, 0, 0);
+}
+.upper-section h3 {
+  padding-top: 20px;
+  font-size: 30px;
+}
+.upper-sectionp1 {
+  font-weight: 600;
+  font-size: 15px;
+}
+.upper-section a {
+  padding-top: 20px;
+  text-decoration: none;
+  color: red;
+}
+.view-all {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.sub-st {
+  position: absolute;
+  right: 6%;
+  text-align: end;
+  padding-top: 70px;
+}
+.account-box .sub-st1 {
+  color: green;
+}
+.sub-st p1 {
+  text-align: end;
+  color: red;
+}
+.sub-st p {
+  font-size: 15px;
+  color: lightgray;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  border-spacing: 50px 0;
+}
+.list h4 {
+  font-size: 30px;
+  display: grid;
+  width: 70%;
+  grid-template-columns: repeat(3, 1fr);
+  padding-left: 220px;
+  align-items: center;
+  column-gap: 0px;
+}
+.list h4::before,
+.list h4::after {
+  content: "";
+  height: 2px;
+  background-color: #000;
+  display: inline;
+}
+.list-items {
+  display: flex;
+  justify-content: end;
+}
+.list-items ul {
+  display: flex;
+  list-style: none;
+  column-gap: 20px;
+  padding-right: 100px;
+}
+.list-items ul li {
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  background: linear-gradient(30deg, red, rgb(0, 0, 0));
+}
+.list1 .list-type {
+  margin-left: 15%;
+}
+
+.verified-account1 {
+  color: green;
+}
+.not-verifiedaccount {
+  color: red;
+}

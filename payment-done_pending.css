@@ -1,0 +1,337 @@
+* {
+  font-family: Arial, sans-serif;
+  margin: 0px;
+  padding: 0;
+}
+
+.container {
+  background: linear-gradient(#480607, #800000, #b22222);
+  color: white;
+  position: fixed;
+  z-index: 2;
+  width: 220px;
+  height: 100%;
+  padding: 10px 20px;
+  margin-left: -30px;
+  margin-top: -20px;
+  margin-bottom: -40px;
+}
+
+.container p {
+  font-size: 15px;
+  padding-left: 70px;
+  padding-bottom: 18px;
+  padding-top: -18px;
+}
+
+.container nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container nav ul {
+  list-style-type: none;
+}
+
+.container nav ul {
+  /* background-color: #f2f2f281; */
+  height: 8px;
+  position: absolute;
+  width: 85%;
+  border-radius: 6px;
+  padding-left: 35px;
+}
+.container nav ul li {
+  width: 100%;
+  padding: 5px 0px 20px 20px;
+}
+.container i {
+  padding-right: 10px;
+  font-size: 20px;
+}
+.container nav a {
+  color: white;
+  text-decoration: none;
+}
+#logo {
+  height: 110px;
+  width: 150px;
+  transform: rotate(-90deg);
+  margin-top: -20px;
+  margin-left: 80px;
+  margin-bottom: -20px;
+  padding-bottom: 16px;
+}
+.right-content {
+  background-color: #f2f2f2;
+  background-size: cover;
+}
+
+.search {
+  padding-bottom: 160px;
+  padding-top: 50px;
+  width: 100%;
+  height: 100%;
+}
+.sec-inp {
+  width: 100%;
+  position: fixed;
+}
+.inp-bg {
+  padding-left: 100px;
+
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inp-bg i {
+  font-size: 25px;
+  color: red;
+  position: absolute;
+  left: 26%;
+}
+.inp-bg img {
+  font-size: 160px;
+  width: 150px;
+  height: 80px;
+  position: absolute;
+  right: 20%;
+}
+.inp-bg input::placeholder {
+  padding-left: 110px;
+  font-size: 28px;
+  color: #d1d9d1;
+}
+.inp-bg input {
+  border-radius: 20px;
+  box-shadow: 1px 0.5px 5px 0.5px;
+  padding: 10px;
+  height: 40px;
+  width: 900px;
+  border: none;
+  outline: none;
+}
+.sec-inp img {
+  width: 70px;
+}
+.list1 {
+  background-color: #f2f2f2;
+
+  width: 100%;
+  overflow-y: auto;
+  margin-top: 50px;
+  padding-top: 10px;
+}
+.list1 .list-type {
+  margin-left: 18%;
+  width: 100%;
+  background-color: white;
+  border-radius: 16px;
+}
+th {
+  font-size: 12px;
+}
+table {
+  width: 100%;
+  height: 100%;
+}
+table {
+  font-size: 5px;
+}
+td {
+  padding: 20px 15px;
+  font-size: 12px;
+}
+table {
+  padding: 10px;
+}
+th:nth-child(12) {
+  text-align: center;
+}
+th:last-child {
+  text-align: center;
+}
+th {
+  padding: 20px 10px;
+  text-align: start;
+}
+table,
+th {
+  text-align: start;
+  border-spacing: 0;
+  border-bottom: 2px solid gray;
+}
+table,
+td {
+  font-weight: 600;
+  text-align: start;
+  border-bottom: 2px solid lightgray;
+}
+table,
+tbody {
+  text-align: center;
+}
+span {
+  display: inline-block;
+  transform: rotate(90deg);
+}
+table {
+  border: none;
+}
+.ver1 {
+  border-radius: 20px;
+  padding: 5px 20px;
+  color: green;
+  border: 1px solid green;
+}
+.ver2 {
+  border-radius: 20px;
+  padding: 5px 20px;
+  color: rgb(255, 166, 0);
+  border: 1px solid rgb(255, 166, 0);
+}
+.ver3 {
+  border-radius: 15px;
+  padding: 4px 10px;
+  color: red;
+  border: 1px solid red;
+}
+.view {
+  background: linear-gradient(30deg, red, rgb(0, 0, 0));
+  color: white;
+  border-radius: 20px;
+  padding: 5px 15px;
+  text-align: center;
+}
+.view a {
+  text-decoration: none;
+  color: white;
+}
+@media only screen and (max-width: 600px) {
+  .search {
+    background-color: #f2f2f2;
+    height: fit-content;
+    display: inline-block;
+    width: 100%;
+    padding-left: 10%;
+    padding-bottom: 50px;
+  }
+  .inp-bg {
+    padding-left: 400px;
+    padding-top: 20px;
+    width: 120%;
+    display: flex;
+  }
+  .sec-inp {
+    width: 100%;
+  }
+  .inp-bg i {
+    font-size: 25px;
+    color: red;
+    position: absolute;
+    left: 98%;
+  }
+  .inp-bg img {
+    position: absolute;
+    right: -100%;
+  }
+  .inp-bg input::placeholder {
+    padding-left: 50px;
+    font-size: 25px;
+  }
+  .inp-bg input {
+    border-radius: 20px;
+    box-shadow: 1px 0.5px 5px 0.5px;
+    padding: 10px;
+    height: 40px;
+    width: 600px;
+    border: none;
+    outline: none;
+  }
+  .sec-inp img {
+    width: 70px;
+  }
+  .list1 .list-type {
+    margin-left: 50%;
+    margin-right: 50%;
+    width: fit-content;
+    height: 160vh;
+    background-color: white;
+    border-radius: 10px;
+  }
+  th {
+    font-size: 25px;
+  }
+  table {
+    width: 100%;
+    height: 100%;
+  }
+  table {
+    font-size: 5px;
+  }
+  td {
+    padding: 20px 15px;
+    font-size: 12px;
+  }
+  table {
+    padding: 10px;
+  }
+  th:nth-child(12) {
+    text-align: center;
+  }
+  th:last-child {
+    text-align: center;
+  }
+  th {
+    padding: 20px 10px;
+    text-align: start;
+  }
+  table,
+  th {
+    text-align: start;
+    border-spacing: 0;
+    border-bottom: 2px solid gray;
+  }
+  table,
+  td {
+    text-align: start;
+    border-bottom: 2px solid lightgray;
+  }
+  table,
+  tbody {
+    text-align: center;
+  }
+  span {
+    display: inline-block;
+    transform: rotate(90deg);
+  }
+  table {
+    border: none;
+  }
+  .ver1 {
+    border-radius: 20px;
+    padding: 5px 20px;
+    color: green;
+    border: 1px solid green;
+  }
+  .ver2 {
+    border-radius: 20px;
+    padding: 5px 20px;
+    color: rgb(255, 166, 0);
+    border: 1px solid rgb(255, 166, 0);
+  }
+  .ver3 {
+    border-radius: 15px;
+    padding: 4px 10px;
+    color: red;
+    border: 1px solid red;
+  }
+  .view {
+    background: linear-gradient(30deg, red, rgb(0, 0, 0));
+    color: white;
+    border-radius: 20px;
+    padding: 5px 15px;
+  }
+}
